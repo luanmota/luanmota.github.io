@@ -1,0 +1,115 @@
+body{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.nav-item{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+#slidePicture{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.info p{
+    font-size: 0.8rem;
+}
+
+.about{
+    text-align: center;
+    margin: 70px 30%
+}
+
+.about p{
+    text-align: left;
+    font-style: italic;
+}
+
+.menu{
+    margin-top: 70px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.indiceMenu{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 10px;     
+}
+
+.arte{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#artista{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+#data{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+#info{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-top: 20px
+}
+
+a{
+    color: black;
+}
+
+#rodape{
+    text-align: center;
+    border-top: 1px solid rgb(206, 206, 206);
+}
+
+/* Fixado a imagem de background, com um tamanho de 1500px, sem repetição da imagem */
+.subscribe{
+    background-image: url("img/ive-erhard-143833-unsplash.jpg");
+    background-size: 1500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.subscribe p{
+    font-size: 2rem;
+    color: white;
+    font-style: italic;
+}
+
+#subBtn{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#inpt{
+    border: 1px solid white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
